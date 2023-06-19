@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body>
+    <h1><%= locals.user.email  %>You Are Logged In </h1>
+    <% if(locals.user){ %>
+    <div class="m-4">   
+        <a href="/destroySession"><button class="btn btn-primary me-2">SignOut</button></a>
+        <button class="btn btn-primary" href="/updatePage" id="updateBtn">update User</button>
+    </div> 
+    <% } %>
+    <div class="updateInputContainer w-50 ms-5" style="display: none;"><%- include('update') %></div>
+    <script>
+        const updateBtn = document.getElementById('updateBtn');
+        const updateInputContainer = document.querySelector('.updateInputContainer');
+        
+        updateBtn.addEventListener('click',()=>{
+            if(updateInputContainer.style.display==='none'){updateInputContainer.style.display = 'block';}else{updateInputContainer.style.display = 'none';}
+        })
+    </script>
+</body>
+</html>
