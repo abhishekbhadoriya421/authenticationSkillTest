@@ -40,10 +40,12 @@ This is a simple web application Which Allow you to Perform Following Tasks
 # File And Structure
 .
     ├── ...
-    ├── test                    # Test files (alternatively `spec` or `tests`)
-    │   ├── benchmarks          # Load and stress tests
-    │   ├── integration         # End-to-end, integration tests (alternatively `e2e`)
-    │   └── unit                # Unit tests
+    ├── Config
+    ├── Controller
+    ├── Module 
+    ├── Route
+    ├── Views
+    ├── Index.js(Root File)
     └── ...
 
 
