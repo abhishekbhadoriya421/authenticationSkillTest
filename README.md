@@ -37,7 +37,7 @@ This is a simple web application Which Allow you to Perform Following Tasks
 
 `crypto => is used for generating rendom password`
 
-# File And Structure
+# File And Folder Structure
 `config--------------------->(mongoose.js, LocalStrategy.js, GoogleStrategy.js)`
 
 `Controller----------------->(homePageController.js, loginPageController.js, signUpPageController.js)`
@@ -72,3 +72,5 @@ const UserSchema = db.Schema({
 }
 );
 ```
+
+`The user DataBase Only Store Name Email and Password`
