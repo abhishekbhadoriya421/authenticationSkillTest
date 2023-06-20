@@ -38,7 +38,7 @@ This is a simple web application Which Allow you to Perform Following Tasks
 `crypto => is used for generating rendom password`
 
 # File And Structure
-`config--------------------->(Passport.js, LocalStrategy.js, GoogleStrategy.js)`
+`config--------------------->(mongoose.js, LocalStrategy.js, GoogleStrategy.js)`
 
 `Controller----------------->(homePageController.js, loginPageController.js, signUpPageController.js)`
 
@@ -50,5 +50,25 @@ This is a simple web application Which Allow you to Perform Following Tasks
 
 `Index.js(Root File)`
 
+# DataBase Schema
+> User Schema 
+```js
 
-
+const UserSchema = db.Schema({
+  name: {
+    type: String,
+    required: true,
+  },
+  email: {
+    type: String,
+    required: true,
+  },
+  password: {
+    type: String,
+    required: true,
+  },
+},{
+    timestamps: true,
+}
+);
+```
