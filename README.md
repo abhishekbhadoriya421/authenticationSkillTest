@@ -5,26 +5,26 @@ This is a simple web application Which Allow you to Perform Following Tasks
 * Update your account Details
 * Google Authentication (Sign Up to google account)
 
+#  Used Tools
+
 > Programming Language And Framework
-### Nodejs
-### Bootstrap
-### EJS (Template Engine)
+* Nodejs
+* Bootstrap
+* EJS (Template Engine)
 ### Express
 
 
 
-> Used Tools And Dependencies
-### passport
-### passport-google-oauth20
-### passport-local
-### mongoose
-### express-session
-### dotenv
-### crypto
-### cookie-parser
-### connect-mongo
-### bcrypt
-
+> Dependencies
+* passport
+* passport-google-oauth20
+* passport-local
+* mongoose
+* express-session
+* dotenv
+* crypto
+* cookie-parser
+* connect-mongo
 
 
 `Passpost => middleware is used for implementing Google and Local authentication strategies`
@@ -33,5 +33,19 @@ This is a simple web application Which Allow you to Perform Following Tasks
 
 `express-session => is a middleware for managing session data in Express.js`
 
-`dotenv => `
+`dotenv => package is used for kepping our sensitive informaton in a separte file not accessed by anyone`
+
+`crypto => is used for generating rendom password`
+
+# File And Structure
+.
+    ├── ...
+    ├── test                    # Test files (alternatively `spec` or `tests`)
+    │   ├── benchmarks          # Load and stress tests
+    │   ├── integration         # End-to-end, integration tests (alternatively `e2e`)
+    │   └── unit                # Unit tests
+    └── ...
+
+
+
 
