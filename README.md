@@ -1,9 +1,9 @@
 # authenticationSkillTest
-This is a simple web application Which Allow you to Perform Following Tasks
-* Create new account (Sign Up) 
+This is a simple web application That Allows you to Perform the Following Tasks
+* Create a new account (Sign Up) 
 * Login to your account (Sign In)
 * Update your account Details
-* Google Authentication (Sign Up to google account)
+* Google Authentication (Sign Up to Google account)
 
 #  Used Tools
 
@@ -33,9 +33,9 @@ This is a simple web application Which Allow you to Perform Following Tasks
 
 `express-session => is a middleware for managing session data in Express.js`
 
-`dotenv => package is used for kepping our sensitive informaton in a separte file not accessed by anyone`
+`dotenv => package is used for keeping our sensitive information in a separate file not accessed by anyone`
 
-`crypto => is used for generating rendom password`
+`crypto => is used for generating random password`
 
 # File And Folder Structure
 `config--------------------->(mongoose.js, LocalStrategy.js, GoogleStrategy.js)`
