@@ -38,9 +38,9 @@ This is a simple web application Which Allow you to Perform Following Tasks
 `crypto => is used for generating rendom password`
 
 # File And Structure
-|                      |---- passport-google-strategy
-|--Config -------------|---- passport-local-strategy
-|                      |---- mongoose.js
+`|                      |---- passport-google-strategy`
+`|--Config -------------|---- passport-local-strategy`
+`|                      |---- mongoose.js`
 Controller
 Module 
 Route
