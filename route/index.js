@@ -35,6 +35,3 @@ route.get('/auth/google/callback',passport.authenticate('google',{failureRedirec
 route.post('/update',signUpPageController.updateSession);
 
 module.exports = route;
-
-
-module.exports = route;
