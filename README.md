@@ -25,7 +25,7 @@ This is a simple web application Which Allow you to Perform Following Tasks
 
 `Passpost => middleware is used for implementing Google and Local authentication strategies`
 
-`mongoose => database is used for storing user data
+`mongoose => database is used for storing user data`
 
 `express-session => is a middleware for managing session data in Express.js`
 
