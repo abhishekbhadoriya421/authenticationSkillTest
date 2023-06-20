@@ -38,16 +38,14 @@ This is a simple web application Which Allow you to Perform Following Tasks
 `crypto => is used for generating rendom password`
 
 # File And Structure
-.
-    ├── 
-    ├── Config
-    ├── Controller
-    ├── Module 
-    ├── Route
-    ├── Views
-    ├── Index.js(Root File)
-    └── 
-.
+|                      |---- passport-google-strategy
+|--Config -------------|---- passport-local-strategy
+|                      |---- mongoose.js
+Controller
+Module 
+Route
+Views
+Index.js(Root File)
 
 
 
